@@ -1,4 +1,4 @@
-data class GridVector(val dx: Int, val dy: Int) {
+data class GridVector(var dx: Int, var dy: Int) {
     companion object {
         val north: GridVector = GridVector(0, 1)
         val south: GridVector = GridVector(0, -1)

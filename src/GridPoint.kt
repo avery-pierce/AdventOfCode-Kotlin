@@ -1,6 +1,6 @@
 import kotlin.math.abs
 
-data class GridPoint(val x: Int, val y: Int) {
+data class GridPoint(var x: Int, var y: Int) {
     companion object {
         val zero = GridPoint(0, 0)
     }
