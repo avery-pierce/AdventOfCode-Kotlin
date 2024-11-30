@@ -1,10 +1,6 @@
 package puzzles
 
-import GridPoint
-import GridVector
-import Input
-import Puzzle
-import TestCase
+import utils.*
 
 class Puzzle1602: Puzzle() {
     override fun solveA(input: Input): Any {

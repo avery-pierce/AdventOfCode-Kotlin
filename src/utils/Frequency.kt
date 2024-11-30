@@ -1,3 +1,5 @@
+package utils
+
 class Frequency<T>(elements: List<T> = listOf()) {
     val map = HashMap<T, Int>()
 

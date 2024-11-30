@@ -1,9 +1,6 @@
 package puzzles
 
-import Frequency
-import Input
-import Puzzle
-import TestCase
+import utils.*
 
 class Puzzle1604: Puzzle() {
     override fun solveA(input: Input): Any {

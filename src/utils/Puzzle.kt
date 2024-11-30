@@ -1,3 +1,5 @@
+package utils
+
 open class Puzzle {
     open fun solveA(input: Input): Any {
         return "unsolved"

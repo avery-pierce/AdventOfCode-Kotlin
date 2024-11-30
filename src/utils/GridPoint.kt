@@ -1,3 +1,5 @@
+package utils
+
 import kotlin.math.abs
 
 data class GridPoint(var x: Int, var y: Int) {

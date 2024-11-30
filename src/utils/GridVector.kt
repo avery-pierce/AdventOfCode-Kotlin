@@ -1,3 +1,5 @@
+package utils
+
 data class GridVector(var dx: Int, var dy: Int) {
     companion object {
         val north: GridVector = GridVector(0, 1)
