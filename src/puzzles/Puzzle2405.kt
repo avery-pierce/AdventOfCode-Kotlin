@@ -95,12 +95,6 @@ class Puzzle2405: Puzzle() {
             .map { PrintUpdate(it) }
     }
 
-    class Solver(val rules: List<OrderRule>, val updates: List<PrintUpdate>) {
-        fun updatesInOrder(): List<PrintUpdate> {
-            return updates.filter { it.isValid(rules) }
-        }
-    }
-
     class OrderRule(val first: Int, val second: Int) {
         fun check(list: List<Int>): Boolean {
             val leftIndex = list.indexOf(first)

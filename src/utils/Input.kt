@@ -29,9 +29,9 @@ class Input(val text: String) {
     val grid: Map<GridPoint, Char>
         get() {
             val map = HashMap<GridPoint, Char>()
-
+            val maxY = lines.count() - 1
             for (y in lines.indices) {
-                val line = lines[y]
+                val line = lines[maxY - y]
 
                 for (x in line.indices) {
                     val char = line[x]
